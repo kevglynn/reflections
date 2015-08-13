@@ -1,0 +1,56 @@
+ * using diff [file 1] [file 2] to compare and find differences in files
+ * using git diff [ID 1] [ID 2] to compare and find differences between commits
+ * using git clone to clone a whole repository
+ * using git init to create a repository
+ * using git commit to: 
+ 	- save a file/project
+ 	- create a new version or 'commit'
+
+REFLECTION #1 - How did viewing a diff between two versions of a file help you see the bug that was introduced?
+			
+			Using diff automated the process. Instead of looking through every single line/character to find differences, you just have to look at the lines presented and FIND the difference between them.
+
+REFLECTION #2 - How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+			A lot of your mistakes or shortcomings do not have to be re-experienced or re-overcome. Also, kind of like these reflections, you're committing, psychologically, to an idea, which makes a deeper impression in your mind.
+
+REFLECTION #3 - What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+			pros: 	- easy to navigate versions
+					- more mindful of each version when choosing to create them
+					- memory of commits because of labelling them is not trivial
+
+			cons: 	- could lose progress
+					- too many versions
+					- no thought of saving, so inflationary response of memory
+
+REFLECTION #4 - Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+			coding projects often include multiple files with interdependencies, such as html, css, and javascript files for a website
+
+REFLECTION #5 - How can you use the commands git log and git diff to view the history of files?
+
+			 - cd [repository directory name]: changes working directory
+			 - git log: displays a list of all commits with descriptions and time/date of commit
+			 - q: escapes git log 
+			 - git diff [ID 1] [ID 2]: displays the changes (color coded) between commits
+			 	NOTE: git config --global color.ui auto: turns the color feature on "globally" (for all projects)
+
+------ git errors and warnings ------
+
+	Should not be doing an octopus 
+		Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
+
+	You are in 'detached HEAD' state 
+		HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
+	Panic! (the 'impossible' happened) 
+		This is a real error message, but it’s not output by Git. Instead it’s output by GHC, the compiler for a programming language called Haskell. It’s reserved for particularly surprising errors!
+
+	Takeaway: We hope these errors and warnings amused you as much as they amused us! Now that you know what kind of errors Git can throw, you’re ready to start checking out previous versions of files with Caroline.
+	-----------------------------------
+
+git checkout: reverts files in a repo to their state in a previous commit
+	* remember, if you find the version without the bug, the NEXT commit was the first to INTRODUCE the bug
+git checkout -b [new_branch_name]: starts new branch from a previous commit
+
