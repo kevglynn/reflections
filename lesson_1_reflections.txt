@@ -6,15 +6,15 @@
  	- save a file/project
  	- create a new version or 'commit'
 
-REFLECTION #1 - How did viewing a diff between two versions of a file help you see the bug that was introduced?
+REFLECTION #1.1 - How did viewing a diff between two versions of a file help you see the bug that was introduced?
 			
 			Using diff automated the process. Instead of looking through every single line/character to find differences, you just have to look at the lines presented and FIND the difference between them.
 
-REFLECTION #2 - How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+REFLECTION #1.2 - How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
 			A lot of your mistakes or shortcomings do not have to be re-experienced or re-overcome. Also, kind of like these reflections, you're committing, psychologically, to an idea, which makes a deeper impression in your mind.
 
-REFLECTION #3 - What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+REFLECTION #1.3 - What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
 
 			pros: 	- easy to navigate versions
 					- more mindful of each version when choosing to create them
@@ -24,11 +24,11 @@ REFLECTION #3 - What do you think are the pros and cons of manually choosing whe
 					- too many versions
 					- no thought of saving, so inflationary response of memory
 
-REFLECTION #4 - Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+REFLECTION #1.4 - Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
 			coding projects often include multiple files with interdependencies, such as html, css, and javascript files for a website
 
-REFLECTION #5 - How can you use the commands git log and git diff to view the history of files?
+REFLECTION #1.5 - How can you use the commands git log and git diff to view the history of files?
 
 			 - cd [repository directory name]: changes working directory
 			 - git log: displays a list of all commits with descriptions and time/date of commit
@@ -54,3 +54,16 @@ git checkout: reverts files in a repo to their state in a previous commit
 	* remember, if you find the version without the bug, the NEXT commit was the first to INTRODUCE the bug
 git checkout -b [new_branch_name]: starts new branch from a previous commit
 
+REFLECTION #1.6 - How might using version control make you more confident to make changes that could break something?
+
+			one can always revert and continue from before the bug
+
+			this feature along with branching also encourages "multiple methods" to solving a problem... to explain: sometimes we reach a fork in the road and don't know which way to go, for example should I use a spark dataframe or a pandas dataframe (better examples exist). Creating a branch for a different method of solving and retaining the current method for further exploration is very convenient
+
+REFLECTION #1.7 - Now that you have your workspace set up, what do you want to try using Git for?
+
+			collaboration with data science team (G, et al)
+
+			creating and working on jenandkev.com
+
+			recipes??? other random non-techie projects?

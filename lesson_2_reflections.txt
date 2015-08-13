@@ -1,0 +1,9 @@
+REFLECTION #2.1 - What happens when you initialize a repository? Why do you need to do it?
+
+			This is what gets git involved... without initializing, there is no version-control.
+
+REFLECTION #2.2 - How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+			The staging area is an intermediary location or flag of some sort (probably inside the /.git directory) that tells git to track changes inside files. The working directory is where those changes are made. The repository is where those changes are ultimately tracked.
+
+	
