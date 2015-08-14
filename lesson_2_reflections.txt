@@ -7,3 +7,10 @@ REFLECTION #2.2 - How is the staging area different from the working directory a
 			The staging area is an intermediary location or flag of some sort (probably inside the /.git directory) that tells git to track changes inside files. The working directory is where those changes are made. The repository is where those changes are ultimately tracked.
 
 	
+HIERARCHY IN REPOS
+
+	1) Working Directory (what you're doing)
+	2) Staging Area (what you want to commit)
+	3) Commit 1 (most recent commit)
+	4) Commit xyz (old commits)
+

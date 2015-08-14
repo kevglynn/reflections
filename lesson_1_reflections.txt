@@ -1,7 +1,7 @@
  * using diff [file 1] [file 2] to compare and find differences in files
  * using git diff [ID 1] [ID 2] to compare and find differences between commits
  * using git clone to clone a whole repository
- * using git init to create a repository
+ * using git init to create a repository from a 'working directory'
  * using git commit to: 
  	- save a file/project
  	- create a new version or 'commit'
