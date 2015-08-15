@@ -14,3 +14,7 @@ HIERARCHY IN REPOS
 	3) Commit 1 (most recent commit)
 	4) Commit xyz (old commits)
 
+REFLECTION #2.4 - What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+			branches are good for any new idea or thought (or context) and allow you to be more free with your creativity
+
