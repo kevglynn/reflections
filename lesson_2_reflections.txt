@@ -14,8 +14,14 @@ HIERARCHY IN REPOS
 	3) Commit 1 (most recent commit)
 	4) Commit xyz (old commits)
 
+
 REFLECTION #2.3 - How can you use the staging area to make sure you have one commit per logical change?
 
 			a) If you have made changes in multiple files for different reasons, 'git add' only the ones that correspond to a particular logical change.
 			b) Again, more control means more thoughtful actions, so more tracking and mental purpose when saving.
 			c) Also, even though you might make a change after staging, you can decide to commit without updating the staging area, since you may decide that the current changes belong to a separate 'logical change'.
+
+REFLECTION #2.4 - What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+			branches are good for any new idea or thought (or context) and allow you to be more free with your creativity
+
