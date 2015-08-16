@@ -34,3 +34,8 @@ REFLECTION #2.6 - What is the result of merging two branches together? Why do we
 			the result is a single branch where all the changes committed are represented
 
 			the diagram just clearly shows the history a little plainer... though it does not coincide with git's display in the CLI... it does represent the full functionality of git
+
+REFLECTION #2.7 - What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+			time saved == efficiency == $$$ and fun
+
