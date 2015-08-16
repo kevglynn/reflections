@@ -29,3 +29,8 @@ REFLECTION #2.5 - How do the diagrams help you visualize the branch structure?
 
 			that is kind of like asking how do those teeth help you chew food? that's what they do... and the diagrams are for helping one visualize the branch structure
 
+REFLECTION #2.6 - What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+			the result is a single branch where all the changes committed are represented
+
+			the diagram 
