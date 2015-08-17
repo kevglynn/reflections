@@ -1,5 +1,11 @@
 REFLECTION #3.1 - When would you want to use a remote repository rather than keeping all your work local?
 
-      1. Universal access (wifi dependent, but very good access)
-      2. Collaboration purposes
-      3. Opening/publicizing open-source type work
+      		1. Universal access (wifi dependent, but very good access)
+      		2. Collaboration purposes
+			3. Opening/publicizing open-source type work
+
+REFLECTION #3.2 - Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+			I don't know... it seems to make sense that github should not automatically update... but why not git?
+
+				git [local repo] staying behind github [remote repo] would make sense, though if you were making multiple changes and wanted a chance to attain the old 'logical change' concept before pulling the changes down the the local repo.
