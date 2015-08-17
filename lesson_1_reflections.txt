@@ -1,11 +1,3 @@
- * using diff [file 1] [file 2] to compare and find differences in files
- * using git diff [ID 1] [ID 2] to compare and find differences between commits
- * using git clone to clone a whole repository
- * using git init to create a repository from a 'working directory'
- * using git commit to: 
- 	- save a file/project
- 	- create a new version or 'commit'
-
 REFLECTION #1.1 - How did viewing a diff between two versions of a file help you see the bug that was introduced?
 			
 			Using diff automated the process. Instead of looking through every single line/character to find differences, you just have to look at the lines presented and FIND the difference between them.
@@ -35,24 +27,6 @@ REFLECTION #1.5 - How can you use the commands git log and git diff to view the 
 			 - q: escapes git log 
 			 - git diff [ID 1] [ID 2]: displays the changes (color coded) between commits
 			 	NOTE: git config --global color.ui auto: turns the color feature on "globally" (for all projects)
-
------- git errors and warnings ------
-
-	Should not be doing an octopus 
-		Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
-
-	You are in 'detached HEAD' state 
-		HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
-
-	Panic! (the 'impossible' happened) 
-		This is a real error message, but it’s not output by Git. Instead it’s output by GHC, the compiler for a programming language called Haskell. It’s reserved for particularly surprising errors!
-
-	Takeaway: We hope these errors and warnings amused you as much as they amused us! Now that you know what kind of errors Git can throw, you’re ready to start checking out previous versions of files with Caroline.
-	-----------------------------------
-
-git checkout: reverts files in a repo to their state in a previous commit
-	* remember, if you find the version without the bug, the NEXT commit was the first to INTRODUCE the bug
-git checkout -b [new_branch_name]: starts new branch from a previous commit
 
 REFLECTION #1.6 - How might using version control make you more confident to make changes that could break something?
 
