@@ -33,3 +33,7 @@ REFLECTION #3.5 - How would you collaborate without using Git or GitHub? What wo
 			HARDER
 				- less control?
 				- unweildy
+
+REFLECTION #3.6 - When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+			Totally confusing... but I think this all boils down to working with others remotely. Though more complicated, maybe it helps to keep ideas separate and distinct among collaborators? I'm not sure this is the clearest way to present these concepts... actual experience collaborating seems to be the only way to really get it across to the student, which may not be feasible.
