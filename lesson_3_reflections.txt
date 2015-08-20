@@ -21,3 +21,15 @@ REFLECTION #3.3 - Describe the differences between forks, clones, and branches. 
 REFLECTION #3.4 - What is the benefit of having a copy of the last known state of the remote stored locally?
 
 			knowning what was last pushed to or pulled from github helps keeping track of what you share to the remote. Without this feature, you would be operating blindly on the part that is most public and therefore higher stakes
+
+REFLECTION #3.5 - How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+			HOW
+				- emails with documentation and explanation
+				- something like (or using) google docs for code
+			EASIER
+				- less fiddling with CLI
+				- fewer steps... maybe? sometimes it feels like lots of commands to get these things to happen
+			HARDER
+				- less control?
+				- unweildy
